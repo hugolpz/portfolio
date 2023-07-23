@@ -625,3 +625,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
   font-size: 40px;
 }
+.decoration {
+  text-decoration: none;
+}
