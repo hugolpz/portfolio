@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Sou Software Developer." ];
+  const toRotate = [ "um Software Developer." ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem vindo ao meu Portfólio</span>
-                <h1>{`Oi! Sou o Elias.`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <h1>{`Oi! Sou o Elias,`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p> Sou um Desenvolvedor Frontend Web e Mobile apaixonado pela tecnologia e que acredita no poder dela para criar um impacto positivo no mundo. Sou formado em Desenvolvimento Web pela Trybe e em Análise e Desenvolvimento de Sistemas pela faculdade Uniasselvi. Minha maior qualidade é a determinação, pois me dedico de corpo e alma para alcançar metas e superar desafios. Sou reconhecido pela minha criatividade em encontrar soluções inovadoras para problemas complexos e prospero em ambientes colaborativos que promovem o trabalho em equipe e o compartilhamento de ideias.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
