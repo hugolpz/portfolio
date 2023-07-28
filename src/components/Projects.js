@@ -1,8 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
+import uberclone from "../assets/img/uberclone.jpg";
+import portfolio from "../assets/img/portfolio.jpg";
+import pokedexweb from "../assets/img/pokedexweb.jpg";
 import eletrotekcell from "../assets/img/eletrotekcell2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import pokemonapi from "../assets/img/pokemonapi.png";
+import instaclone from "../assets/img/instaclone.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,34 +16,38 @@ export const Projects = () => {
     {
       title: "Uber Clone",
       description: "App para pedir Uber, ver a distância e tempo total e quanto você tem que pagar.",
-      imgUrl: projImg1,
+      imgUrl: uberclone,
       link: 'https://github.com/eliasef/uber-clone'
     },
     {
       title: "Pokedéx API",
       description: "App para listar, pesquisar e ver atributos de pokémons consumindo a API oficial da pokedéx.",
-      imgUrl: eletrotekcell,
+      imgUrl: pokemonapi,
       link: 'https://github.com/eliasef/api-pokedex'
     },
     {
       title: "Instagram Clone",
       description: "App para listar, pesquisar e ver atributos de pokémons.",
-      imgUrl: projImg3,
+      imgUrl: instaclone,
+      link: 'https://github.com/eliasef/insta-clone'
     },
     {
       title: "Portfólio",
       description: "Meu portfólio pessoal.",
-      imgUrl: projImg1,
+      imgUrl: portfolio,
+      link: 'https://github.com/eliasef/portfolio-elias'
     },
     {
       title: "Eletrotekcell",
       description: "Um projeto de Landing Page de uma empresa chamada Eletrotekcell.",
       imgUrl: eletrotekcell,
+      link: 'https://github.com/eliasef/eletrotekcell-site'
     },
     {
       title: "Pokédex Web",
       description: "Cards de Pokémons feito com Js e UI design.",
-      imgUrl: projImg3,
+      imgUrl: pokedexweb,
+      link: 'https://github.com/eliasef/api-pokedex'
     },
   ];
 
