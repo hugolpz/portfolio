@@ -23,14 +23,14 @@
             {{ $t('nav.skills') }}
           </BNavItem>
           <BNavItem
-            href="#project" target="_blank"
+            href="#project"
             :class="activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'"
             @click="onUpdateActiveLink('projects')"
           >
             {{ $t('nav.projects') }}
           </BNavItem>
           <BNavItem
-            href="https://linkedin.com/in/lopez-hugo-a9402022/"
+            href="https://linkedin.com/in/lopez-hugo-a9402022/" target="_blank"
             :class="activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'"
             @click="onUpdateActiveLink('resume')"
           >

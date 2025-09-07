@@ -26,12 +26,10 @@ npm run server # Start Express server (serves built Vue.js app on port 5000)
 ## 📁 Project Structure
 
 ```
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # GitHub Actions workflow for deployment
-├── index.html              # Main HTML file
-├── package.json            # Vue.js dependencies
-├── vite.config.js          # Vite configuration with GitHub Pages base
+├── .github/workflows/deploy.yml      # GitHub Actions workflow for deployment
+├── index.html             # Main HTML file
+├── package.json           # Vue.js dependencies
+├── vite.config.js         # Vite configuration with GitHub Pages base
 ├── server.js              # Express server for contact form
 ├── public/                # Static assets
 │   ├── favicon.ico
@@ -41,15 +39,12 @@ npm run server # Start Express server (serves built Vue.js app on port 5000)
     ├── main.js            # Vue.js entry point with i18n
     ├── App.vue            # Main application component
     ├── assets/
-    │   ├── styles/
-    │   │   └── main.css   # Global styles and CSS overrides
+    │   ├── styles/        # Global styles and CSS overrides
     │   ├── img/           # Images and icons
     │   └── font/          # Custom fonts (Centra)
     ├── i18n/              # Internationalization
     │   ├── index.js       # i18n configuration
-    │   └── locales/
-    │       ├── en.json    # English translations
-    │       └── fr.json    # French translations
+    │   └── locales/       # Translations
     └── components/
         ├── NavBar.vue         # Navigation with language switcher
         ├── Banner.vue         # Hero section with typewriter effect
