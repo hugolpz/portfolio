@@ -2,20 +2,27 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+const path = require("path");
 
-// server used to send send emails
+// server used to send emails and serve static files
 const app = express();
 app.use(cors());
 app.use(express.json());
+
+// Serve static files from the dist directory (Vue build output)
+app.use(express.static(path.join(__dirname, 'dist')));
+
 app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
+
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server Running on port ${PORT}`));
 console.log(process.env.EMAIL_USER);
 console.log(process.env.EMAIL_PASS);
 
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "********@gmail.com",
+    user: "hugo.lpz@gmail.com",
     pass: ""
   },
 });
@@ -35,7 +42,7 @@ router.post("/contact", (req, res) => {
   const phone = req.body.phone;
   const mail = {
     from: name,
-    to: "********@gmail.com",
+    to: "hugo.lpz@gmail.com",
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
@@ -49,4 +56,9 @@ router.post("/contact", (req, res) => {
       res.json({ code: 200, status: "Message Sent" });
     }
   });
+});
+
+// Catch all handler: send back Vue's index.html file for any non-API routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist/index.html'));
 });

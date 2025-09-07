@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "banner": {
+    "tagline": "Welcome to my Portfolio",
+    "greeting": "Hi! I'm",
+    "firstname": "Hugo",
+    "name": "Hugo Lopez",
+    "roles": [
+      "Web Developer",
+      "UI/UX Designer",
+      "Educational Technologist"
+    ],
+    "description": "In the age of internet, working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data, to create about 30 MOOCs with 200,000 overall registered users. I blend development and design into engaging, functional experiences.",
+    "connectButton": "Let's Connect"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Proficient in modern web technologies including JavaScript, Vue.js, React, Node.js, and more. I specialize in creating responsive, user-friendly applications with clean, maintainable code."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "In the age of internet, working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data, to create about 30 MOOCs with 200,000 overall registered users. I blend development and design into engaging, functional experiences.",
+    "tabs": {
+      "webProjects": "Web Projects",
+      "moocs": "MOOCs"
+    },
+    "webProjects": {
+      "uberClone": {
+        "title": "Uber Clone",
+        "description": "App to request Uber, see distance and total time and how much you have to pay."
+      },
+      "pokedexApi": {
+        "title": "Pokédex API",
+        "description": "App to list, search and see attributes of pokémons consuming the official pokédx API."
+      },
+      "instagramClone": {
+        "title": "Instagram Clone",
+        "description": "App to list, search and see attributes of pokémons."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "My personal portfolio."
+      },
+      "eletrotekcell": {
+        "title": "Eletrotekcell",
+        "description": "A Landing Page project for a company called Eletrotekcell."
+      },
+      "pokedexWeb": {
+        "title": "Pokédx Web",
+        "description": "Pokémon cards made with JS and UI design."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Hugo Lopez. All rights reserved."
+  }
+}

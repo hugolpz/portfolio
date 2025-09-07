@@ -1,36 +1,91 @@
-# Personal Portfolio Website in React
+# Vue.js Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a modern Vue.js portfolio website showcasing projects, skills, and contact information.
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
+## 🚀 Tech Stack
 
-Built using:
+- **Frontend**: Vue.js 3 (Composition API)
+- **Build Tool**: Vite
+- **UI Framework**: Bootstrap Vue Next
+- **Animations**: Animate.css
+- **Carousel**: Vue3-Carousel
+- **Backend**: Express.js + Nodemailer
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
+## 🛠️ Setup & Installation
 
-In the /personal-portfolio, you can run:
+```bash
+npm install    # Install dependencies
+npm run dev    # Start development server at http://localhost:3001
+npm run build  # Build for production
+npm run server # Start Express server (serves built Vue.js app on port 5000)
+```
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+├── index.html           # Main HTML file
+├── package.json         # Vue.js dependencies
+├── vite.config.js       # Vite configuration
+├── server.js           # Express server for contact form
+├── public/             # Static assets
+│   ├── favicon.ico
+│   ├── manifest.json
+│   └── robots.txt
+└── src/
+    ├── main.js         # Vue.js entry point
+    ├── App.vue         # Main application component
+    ├── assets/
+    │   ├── styles/     # CSS files
+    │   ├── img/        # Images
+    │   └── font/       # Custom fonts
+    └── components/
+        ├── NavBar.vue      # Navigation component
+        ├── Banner.vue      # Hero section with typewriter effect
+        ├── Skills.vue      # Skills carousel
+        ├── Projects.vue    # Projects showcase
+        ├── ProjectCard.vue # Individual project card
+        └── Footer.vue      # Footer component
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Responsive Design**: Fully responsive layout using Bootstrap
+- **Smooth Animations**: CSS animations and transitions
+- **Typewriter Effect**: Animated text in the banner section
+- **Skills Carousel**: Interactive skills showcase
+- **Project Gallery**: Grid layout for project showcase
+- **Contact Form**: Email integration via Nodemailer
+- **Modern Vue.js**: Uses Composition API and reactive patterns
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔄 Migration from React
 
-### `npm run build`
+This project was converted from React to Vue.js with the following key changes:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **State Management**: `useState` → `ref`/`reactive`
+- **Lifecycle**: `useEffect` → `onMounted`/`onUnmounted`
+- **Components**: JSX → Vue SFC (Single File Components)
+- **Props**: React props → Vue props with validation
+- **Events**: React event handlers → Vue event listeners
+- **Routing**: React Router → Vue Router (if needed)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤝 Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 📧 Contact
+
+- **LinkedIn**: [Hugo Lopez](https://linkedin.com/in/lopez-hugo-a9402022/)
+- **GitHub**: [hugolpz](https://github.com/hugolpz)
+- **Email**: hugo.lpz@gmail.com
+
+---
+
+Built with ❤️ using Vue.js 3 and Vite

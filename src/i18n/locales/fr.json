@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "projects": "Projets"
+  },
+  "banner": {
+    "tagline": "Bienvenue dans mon Portfolio",
+    "greeting": "Hi! Je suis",
+    "firstname": "Hugo",
+    "name": "Hugo Lopez",
+    "roles": [
+      "Développeur Web",
+      "Designer UI/UX",
+      "Technologue Éducatif"
+    ],
+    "description": "À l'ère d'internet, travailler à l'union de l'Éducation et de la technologie m'a amené à créer des applications web et mobiles interactives avec HTML, CSS, JS, NodeJS, VueJS et D3js, à concevoir des visualisations de données SVG avancées et des cartes SIG alimentées par des données NASA/ESA, pour créer environ 30 MOOCs avec 200 000 utilisateurs enregistrés au total. Je mélange développement et design en expériences engageantes et fonctionnelles.",
+    "connectButton": "Connectons-nous"
+  },
+  "skills": {
+    "title": "Compétences",
+    "description": "Compétent dans les technologies web modernes incluant JavaScript, Vue.js, React, Node.js, et plus. Je me spécialise dans la création d'applications responsives et conviviales avec du code propre et maintenable."
+  },
+  "projects": {
+    "title": "Projets",
+    "description": "À l'ère d'internet, travailler à l'union de l'Éducation et de la technologie m'a amené à créer des applications web et mobiles interactives avec HTML, CSS, JS, NodeJS, VueJS et D3js, à concevoir des visualisations de données SVG avancées et des cartes SIG alimentées par des données NASA/ESA, pour créer environ 30 MOOCs avec 200 000 utilisateurs enregistrés au total. Je mélange développement et design en expériences engageantes et fonctionnelles.",
+    "tabs": {
+      "webProjects": "Projets Web",
+      "moocs": "MOOCs"
+    },
+    "webProjects": {
+      "uberClone": {
+        "title": "Clone d'Uber",
+        "description": "Application pour demander Uber, voir la distance et le temps total et combien vous devez payer."
+      },
+      "pokedexApi": {
+        "title": "API Pokédx",
+        "description": "Application pour lister, rechercher et voir les attributs des pokémons en consommant l'API officielle du pokédx."
+      },
+      "instagramClone": {
+        "title": "Clone d'Instagram",
+        "description": "Application pour lister, rechercher et voir les attributs des pokémons."
+      },
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Mon portfolio personnel."
+      },
+      "eletrotekcell": {
+        "title": "Eletrotekcell",
+        "description": "Un projet de page d'atterrissage pour une entreprise appelée Eletrotekcell."
+      },
+      "pokedexWeb": {
+        "title": "Pokédx Web",
+        "description": "Cartes Pokémon réalisées avec JS et design UI."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Hugo Lopez. Tous droits réservés."
+  }
+}
