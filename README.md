@@ -1,15 +1,17 @@
 # Vue.js Portfolio
 
-This is a modern Vue.js portfolio website showcasing projects, skills, and contact information.
+This is a modern Vue.js portfolio website showcasing projects, skills, and contact information with internationalization support.
 
 ## 🚀 Tech Stack
 
 - **Frontend**: Vue.js 3 (Composition API)
 - **Build Tool**: Vite
 - **UI Framework**: Bootstrap Vue Next
+- **Internationalization**: Vue I18n
 - **Animations**: Animate.css
 - **Carousel**: Vue3-Carousel
 - **Backend**: Express.js + Nodemailer
+- **Deployment**: GitHub Pages
 
 ## 🛠️ Setup & Installation
 
@@ -17,45 +19,79 @@ This is a modern Vue.js portfolio website showcasing projects, skills, and conta
 npm install    # Install dependencies
 npm run dev    # Start development server at http://localhost:3001
 npm run build  # Build for production
+npm run deploy # Deploy to GitHub Pages
 npm run server # Start Express server (serves built Vue.js app on port 5000)
 ```
 
 ## 📁 Project Structure
 
 ```
-├── index.html           # Main HTML file
-├── package.json         # Vue.js dependencies
-├── vite.config.js       # Vite configuration
-├── server.js           # Express server for contact form
-├── public/             # Static assets
+├── .github/
+│   └── workflows/
+│       └── deploy.yml      # GitHub Actions workflow for deployment
+├── index.html              # Main HTML file
+├── package.json            # Vue.js dependencies
+├── vite.config.js          # Vite configuration with GitHub Pages base
+├── server.js              # Express server for contact form
+├── public/                # Static assets
 │   ├── favicon.ico
 │   ├── manifest.json
 │   └── robots.txt
 └── src/
-    ├── main.js         # Vue.js entry point
-    ├── App.vue         # Main application component
+    ├── main.js            # Vue.js entry point with i18n
+    ├── App.vue            # Main application component
     ├── assets/
-    │   ├── styles/     # CSS files
-    │   ├── img/        # Images
-    │   └── font/       # Custom fonts
+    │   ├── styles/
+    │   │   └── main.css   # Global styles and CSS overrides
+    │   ├── img/           # Images and icons
+    │   └── font/          # Custom fonts (Centra)
+    ├── i18n/              # Internationalization
+    │   ├── index.js       # i18n configuration
+    │   └── locales/
+    │       ├── en.json    # English translations
+    │       └── fr.json    # French translations
     └── components/
-        ├── NavBar.vue      # Navigation component
-        ├── Banner.vue      # Hero section with typewriter effect
-        ├── Skills.vue      # Skills carousel
-        ├── Projects.vue    # Projects showcase
-        ├── ProjectCard.vue # Individual project card
-        └── Footer.vue      # Footer component
+        ├── NavBar.vue         # Navigation with language switcher
+        ├── Banner.vue         # Hero section with typewriter effect
+        ├── Skills.vue         # Skills carousel with external logos
+        ├── Projects.vue       # Projects showcase with tabs
+        ├── ProjectCard.vue    # Individual project card with conditional rendering
+        ├── Footer.vue         # Footer component
+        └── LanguageSwitcher.vue # Language selection dropdown
 ```
 
 ## ✨ Features
 
-- **Responsive Design**: Fully responsive layout using Bootstrap
-- **Smooth Animations**: CSS animations and transitions
-- **Typewriter Effect**: Animated text in the banner section
-- **Skills Carousel**: Interactive skills showcase
-- **Project Gallery**: Grid layout for project showcase
-- **Contact Form**: Email integration via Nodemailer
-- **Modern Vue.js**: Uses Composition API and reactive patterns
+- **🌍 Internationalization**: Support for English and French languages
+- **📱 Responsive Design**: Fully responsive layout using Bootstrap
+- **🎨 Smooth Animations**: CSS animations and transitions with Animate.css
+- **⌨️ Typewriter Effect**: Animated text in the banner section (i18n compatible)
+- **🎠 Skills Carousel**: Interactive skills showcase with external organization logos
+- **📂 Project Gallery**: Tabbed layout for web projects and MOOCs
+- **📧 Contact Form**: Email integration via Nodemailer
+- **🚀 Modern Vue.js**: Uses Composition API and reactive patterns
+- **🔄 Auto-deployment**: GitHub Actions workflow for seamless deployment
+
+## 🌐 Internationalization
+
+The portfolio supports multiple languages:
+
+- **English** 🇺🇸 (default)
+- **French** 🇫🇷
+
+Language switching is handled via a dropdown in the navigation bar with persistent storage.
+
+## 🚀 Deployment
+
+### GitHub Pages (Automatic)
+1. Push to the `main` branch
+2. GitHub Actions automatically builds and deploys
+3. Site available at: `https://hugolpz.github.io/portfolio/`
+
+### Manual Deployment
+```bash
+npm run deploy
+```
 
 ## 🔄 Migration from React
 
@@ -66,7 +102,14 @@ This project was converted from React to Vue.js with the following key changes:
 - **Components**: JSX → Vue SFC (Single File Components)
 - **Props**: React props → Vue props with validation
 - **Events**: React event handlers → Vue event listeners
-- **Routing**: React Router → Vue Router (if needed)
+- **Internationalization**: Added Vue I18n for multi-language support
+- **Build Tool**: Create React App → Vite
+
+## 🏗️ Skills & Organizations
+
+The portfolio showcases partnerships and experience with:
+- **Organizations**: Wikimedia France, DGLFLF, Wikimedia Foundation, URFIST Occitanie, Google Summer of Code
+- **Technologies**: GitHub, GitLab, Vue.js, Node.js, MongoDB, Docker, Python, and more
 
 ## 🤝 Contributing
 
