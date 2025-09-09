@@ -45,6 +45,9 @@
             <a class="gh" href="https://github.com/hugolpz" target="_blank">
               <img :src="navIcon2" alt="" />
             </a>
+            <a class="hal" href="https://hal.science/search/index/q/*/authIdHal_s/hugo-pierre-lopez" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/HAL_archive-logo_(2021)-white.svg" alt="" />
+            </a>
           </div>
           <a target="_blank" href="https://linkedin.com/in/lopez-hugo-a9402022/">
             <button class="vvd">

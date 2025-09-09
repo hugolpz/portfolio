@@ -59,10 +59,7 @@ import { useI18n } from 'vue-i18n'
 import ProjectCard from './ProjectCard.vue'
 import uberclone from '@/assets/img/uberclone.jpg'
 import portfolio from '@/assets/img/portfolio.jpg'
-import pokedexweb from '@/assets/img/pokedexweb.jpg'
-import eletrotekcell from '@/assets/img/eletrotekcell2.png'
 import pokemonapi from '@/assets/img/pokemonapi.png'
-import instaclone from '@/assets/img/instaclone.jpg'
 import colorSharp2 from '@/assets/img/color-sharp2.png'
 
 export default {
@@ -87,35 +84,18 @@ export default {
         url: 'https://github.com/hugolpz/api-pokedex'
       },
       {
-        title: t('projects.webProjects.instagramClone.title'),
-        description: t('projects.webProjects.instagramClone.description'),
-        imgUrl: instaclone,
-        url: 'https://github.com/hugolpz/insta-clone'
-      },
-      {
         title: t('projects.webProjects.portfolio.title'),
         description: t('projects.webProjects.portfolio.description'),
         imgUrl: portfolio,
         url: 'https://github.com/hugolpz/portfolio'
-      },
-      {
-        title: t('projects.webProjects.eletrotekcell.title'),
-        description: t('projects.webProjects.eletrotekcell.description'),
-        imgUrl: eletrotekcell,
-        url: 'https://github.com/hugolpz/eletrotekcell-site'
-      },
-      {
-        title: t('projects.webProjects.pokedexWeb.title'),
-        description: t('projects.webProjects.pokedexWeb.description'),
-        imgUrl: pokedexweb,
-        url: 'https://github.com/hugolpz/api-pokedex'
       }
     ])
 
     const moocs = [
       { url: "https://www.fun-mooc.fr/en/cours/kit-de-contact-en-langues-orientales-chinois/", title:"Kit de contact en langues orientale : Chinois", description:"" },
       { url: "https://projects.learningplanetinstitute.org/profile/hugo-lopez/summary", title:"Hugo Lopez in the Learning Planete Institute's website", description:"" },
-      { url: "https://projects.learningplanetinstitute.org/projects/mooc-education-par-la-recherche-conversion-n/summary", title:"MOOC: L'Éducation par la recherche", description:"" }
+      { url: "https://projects.learningplanetinstitute.org/projects/mooc-education-par-la-recherche-conversion-n/summary", title:"MOOC: L'Éducation par la recherche", description:"" },
+      { url: "https://hugolpz.github.io/OpenEdx-hanzi/", title: "OpenEdx-Hanzi", description: "" }
     ]
 
     return {

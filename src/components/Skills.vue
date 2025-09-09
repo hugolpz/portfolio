@@ -58,8 +58,7 @@ export default {
       { img:"https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",website:"https://vuejs.org", name:"VueJS" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",website:"https://expressjs.com", name:"ExpressJS" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",website:"https://nodejs.org", name:"NodeJS" },
-      { img:"https://upload.wikimedia.org/wikipedia/commons/0/02/MongoDB_Logo.svg",website:"https://www.mongodb.com", name:"MongoDB" },
-      { img:"https://upload.wikimedia.org/wikipedia/commons/8/88/Mongoose_logo.svg",website:"https://mongoosejs.com", name:"Mongoose" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/f/f9/Antu_mongodb.svg",website:"https://www.mongodb.com", name:"MongoDB" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg", website: "", name: "JavaScript" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg", website: "", name: "CSS3" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg", website: "", name: "HTML5" },
@@ -74,29 +73,44 @@ export default {
       { img:"https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg", website: "https://www.wikipedia.org", name: "Wikipedia" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/7/71/Wikidata.svg", website:"https://wikidata.org", name:"Wikidata"},
       { img:"https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg", website:"https://commons.wikimedia.org", name:"Wikimedia Commons"},
-    ]
+      { img:"https://upload.wikimedia.org/wikipedia/commons/4/46/Lingualibre_SignIt-logo-no-text.svg", website:"https://meta.wikimedia.org/wiki/Lingua_Libre/SignIt", name:"SignIt" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/5/55/Lingualibre-logo-no-text.svg", website:"https://lingualibre.org", name:"LinguaLibre" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/e/ed/Wikimedia_Phabricator_logo.svg", website:"https://phacility.com/phabricator/", name:"Phabricator" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/a/a6/MediaWiki-2020-icon.svg", website:"https://www.mediawiki.org", name:"MediaWiki" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg", website:"https://www.r-project.org", name:"R" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/b/b0/Openstreetmap_logo.svg", website:"https://www.openstreetmap.org", name:"OpenStreetMap" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/3/3e/QGIS_logo_minimal.svg", website:"https://www.qgis.org", name:"QGIS" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/d/df/GDALLogoColor.svg", website:" 	http://download.osgeo.org/gdal/", name:"Gdal" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/1/15/Logo_D3.svg", website:"https://d3js.org", name:"D3.js" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/8/8f/EdX.svg", website:"https://www.edx.org", name:"OpenEdX" },
+      ]
 
     const carouselSettings = {
       itemsToShow: 6,
-      snapAlign: 'center'
+      snapAlign: 'center',
+      itemsToScroll: 3
     }
 
     const breakpoints = {
       464: {
         itemsToShow: 2,
-        snapAlign: 'center'
+        snapAlign: 'center',
+      itemsToScroll: 2
       },
       1024: {
         itemsToShow: 4,
-        snapAlign: 'center'
+        snapAlign: 'center',
+      itemsToScroll: 4
       },
       3000: {
         itemsToShow: 6,
-        snapAlign: 'center'
+        snapAlign: 'center',
+      itemsToScroll: 6
       },
       4000: {
         itemsToShow: 8,
-        snapAlign: 'center'
+        snapAlign: 'center',
+      itemsToScroll: 8
       }
     }
 

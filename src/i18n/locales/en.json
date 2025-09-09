@@ -37,21 +37,9 @@
         "title": "Pokédex API",
         "description": "App to list, search and see attributes of pokémons consuming the official pokédx API."
       },
-      "instagramClone": {
-        "title": "Instagram Clone",
-        "description": "App to list, search and see attributes of pokémons."
-      },
       "portfolio": {
         "title": "Portfolio",
         "description": "My personal portfolio."
-      },
-      "eletrotekcell": {
-        "title": "Eletrotekcell",
-        "description": "A Landing Page project for a company called Eletrotekcell."
-      },
-      "pokedexWeb": {
-        "title": "Pokédx Web",
-        "description": "Pokémon cards made with JS and UI design."
       }
     }
   },
