@@ -13,28 +13,28 @@
             :class="activeLink === 'home' ? 'active navbar-link' : 'navbar-link'"
             @click="onUpdateActiveLink('home')"
           >
-            {{ $t('nav.home') }}
+            {{ $t('navbar.home') }}
           </BNavItem>
           <BNavItem
             href="#skills"
             :class="activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'"
             @click="onUpdateActiveLink('skills')"
           >
-            {{ $t('nav.skills') }}
+            {{ $t('navbar.skills') }}
           </BNavItem>
           <BNavItem
             href="#project"
             :class="activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'"
             @click="onUpdateActiveLink('projects')"
           >
-            {{ $t('nav.projects') }}
+            {{ $t('navbar.projects') }}
           </BNavItem>
           <BNavItem
             href="https://linkedin.com/in/lopez-hugo-a9402022/" target="_blank"
             :class="activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'"
             @click="onUpdateActiveLink('resume')"
           >
-            Resume
+            {{ $t('navbar.resume') }}
           </BNavItem>
         </BNavbarNav>
         <span class="navbar-text">
@@ -51,7 +51,7 @@
           </div>
           <a target="_blank" href="https://linkedin.com/in/lopez-hugo-a9402022/">
             <button class="vvd">
-              <span>{{ $t('banner.connectButton') }}</span>
+              <span>{{ $t('navbar.connect') }}</span>
             </button>
           </a>
         </span>

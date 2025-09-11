@@ -1,8 +1,10 @@
 {
-  "nav": {
+  "navbar": {
     "home": "Home",
-    "skills": "Skills",
-    "projects": "Projects"
+    "skills": "Skills", 
+    "projects": "Projects",
+    "resume": "Resume",
+    "connect": "Let's Connect"
   },
   "banner": {
     "tagline": "Welcome to my Portfolio",
@@ -14,8 +16,7 @@
       "UI/UX Designer",
       "Educational Technologist"
     ],
-    "description": "In the age of internet, working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data, to create about 30 MOOCs with 200,000 overall registered users. I blend development and design into engaging, functional experiences.",
-    "connectButton": "Let's Connect"
+    "description": "In the age of internet, working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data, to create about 30 MOOCs with 200,000 overall registered users. I blend development and design into engaging, functional experiences."
   },
   "skills": {
     "title": "Skills",
