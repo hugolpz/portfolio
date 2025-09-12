@@ -44,6 +44,10 @@
       }
     }
   },
+  "biograph": {
+    "title": "Knowledge Graph",
+    "description": ""
+  },
   "footer": {
     "copyright": "© Text: Hugo Lopez CC0 ; Code: MIT License."
   }
