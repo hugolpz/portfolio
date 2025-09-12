@@ -1,13 +1,12 @@
 <template>
   <BNavbar :class="{ scrolled: scrolled }" expand="md">
     <BContainer>
-      <BNavbarToggle target="basic-navbar-nav">
+      <BNavbarToggle target="basic-navbar-nav" class="navbar-toggler">
         <span class="navbar-toggler-icon"></span>
       </BNavbarToggle>
       <BCollapse id="basic-navbar-nav" is-nav>
-
-          <LanguageSwitcher />
         <BNavbarNav class="ms-auto">
+          <LanguageSwitcher />
           <BNavItem
             href="#home"
             :class="activeLink === 'home' ? 'active navbar-link' : 'navbar-link'"
@@ -49,7 +48,7 @@
               <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/HAL_archive-logo_(2021)-white.svg" alt="" />
             </a>
           </div>
-          <a target="_blank" href="https://linkedin.com/in/lopez-hugo-a9402022/">
+          <a class="connect-button" target="_blank" href="https://linkedin.com/in/lopez-hugo-a9402022/">
             <button class="vvd">
               <span>{{ $t('navbar.connect') }}</span>
             </button>

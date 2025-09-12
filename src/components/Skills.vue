@@ -52,7 +52,7 @@ export default {
       { img:"https://upload.wikimedia.org/wikipedia/commons/3/31/Wikimedia_Foundation_logo_-_vertical.svg",website:"https://meta.wikimedia.org", name:"Wikimedia Foundation" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/c/c0/URFIST_Occitanie-2023.svg",website:"https://urfist.univ-toulouse.fr", name:"URFIST Occitanie" },
       { img:"https://raw.githubusercontent.com/scribe-org/Organization/main/resources/images/logos/GSoCLogo.png",website:"https://summerofcode.withgoogle.com/", name:"Google Summer of Code" },
-
+      { img:"https://upload.wikimedia.org/wikipedia/fr/0/05/Logo_de_l%27universit%C3%A9_Toulouse_-_Jean_Jaur%C3%A8s.svg", website: "", name: "Université Toulouse Jean Jaurès"},
       { img:"https://upload.wikimedia.org/wikipedia/commons/a/ae/Github-desktop-logo-symbol.svg",website:"https://github.com", name:"GitHub" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/3/35/GitLab_icon.svg",website:"https://gitlab.com", name:"GitLab" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg",website:"https://vuejs.org", name:"VueJS" },
@@ -70,6 +70,7 @@ export default {
       { img:"https://upload.wikimedia.org/wikipedia/commons/0/0d/Inkscape_Logo.svg", website: "", name: "Inkscape" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg", website: "", name: "Python" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/b/bb/Open_Science_Logo.jpg", website: "", name: "Open Science" },
+      { img:"https://upload.wikimedia.org/wikipedia/commons/4/45/Font_Awesome_5_brands_creative-commons.svg", website: "https://creativecommons.org/licenses/", name: "Creative Commons licences" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg", website: "https://www.wikipedia.org", name: "Wikipedia" },
       { img:"https://upload.wikimedia.org/wikipedia/commons/7/71/Wikidata.svg", website:"https://wikidata.org", name:"Wikidata"},
       { img:"https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg", website:"https://commons.wikimedia.org", name:"Wikimedia Commons"},
@@ -124,30 +125,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.placeholder-logo {
-  width: 100px;
-  height: 100px;
-  max-width: 100px;
-  max-height: 100px;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-  margin: 0 auto 15px auto;
 }
-
-.item a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.item a:hover {
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-</style>

@@ -55,9 +55,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.language-switcher {
-  margin-left: 15px;
-}
-</style>
