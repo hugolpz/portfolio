@@ -45,8 +45,8 @@
     }
   },
   "biograph": {
-    "title": "Biographie & Graphique de Connaissances",
-    "description": "Visualisation interactive de mon parcours professionnel, connexions de recherche, et réseau de connaissances via Wikidata. Explorez les relations entre concepts, publications, et domaines d'expertise qui définissent mon identité académique et professionnelle."
+    "title": "Graphique de Connaissances",
+    "description": "Visualisation interactive issue de Wikidata."
   },
   "footer": {
     "copyright": "© Text: Hugo Lopez CC0 ; Code: MIT License."

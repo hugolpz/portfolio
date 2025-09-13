@@ -11,9 +11,7 @@
                 <span class="wrap">{{ displayText }}</span>
               </span>
             </h1>
-            <p>
-              {{ $t('banner.description') }}
-            </p>
+            <p v-html="$t('banner.description')"></p>
             <a class="decoration" href="#project">
               <button @click="scrollToProjects">
                 See some of my projects 

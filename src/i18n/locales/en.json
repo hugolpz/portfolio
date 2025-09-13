@@ -12,19 +12,24 @@
     "firstname": "Hugo",
     "name": "Hugo Lopez",
     "roles": [
-      "Web Developer",
-      "UI/UX Designer",
-      "Educational Technologist"
+      "a Project Manager",
+      "an Innovator",
+      "an Educator",
+      "a Technologist",
+      "a Web Developer",
+      "a Lexicographer",
+      "an Advocate"
     ],
-    "description": "In the age of internet, working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data, to create about 30 MOOCs with 200,000 overall registered users. I blend development and design into engaging, functional experiences."
+    "description": 
+    "Hugo P. Lopez is an <strong>E-learning Engineer</strong>, <strong>Project Manager</strong>, <strong>Lexicographer</strong> and <strong>Innovator</strong> mostly for Universities and Under-Resourced Languages. He has two decades of experience as a facilitator in academia, for-profits, and non-profits open source communities, identifying bottlenecks & needs, designing custom solutions, and leading their realization and delivery. The ~30 MOOCs he worked on recorded over 200,000 registered learners.\n\n An open knowledge advocate, Hugo has been an invited speaker at two dozen academic or open source conferences including in Los Angeles, Taipei, Cap Town and Stockholm. He currently leads Wikimedia's LinguaLibre.org which supports crowd sourced documentation and lexicography by minority language communities across the world. His latest focus is on the shepherdic Whistled Occitan language, a secret hidden in Franco-Spanish mountains."
   },
   "skills": {
     "title": "Skills",
-    "description": "Proficient in modern web technologies including JavaScript, Vue.js, React, Node.js, and more. I specialize in creating responsive, user-friendly applications with clean, maintainable code."
+    "description": "Working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data."
   },
   "projects": {
     "title": "Projects",
-    "description": "In the age of internet, working at the union of Education and technology led me to craft interactive web and mobile apps with HTML, CSS, JS, NodeJS, VueJS and D3js, to designing advanced SVG data visualizations and GIS maps powered by NASA/ESA data, to create about 30 MOOCs with 200,000 overall registered users. I blend development and design into engaging, functional experiences.",
+    "description": "I specialize in identifying users' needs and leading developers to produce engaging and functional experiences, clean documentation and maintainable code. Over the years I worked on dozens of digital tools, custom made or via popular plateforms. This includes Lingualibre.org as well as about 30 MOOCs including on teaching best practices, medecine, art and Chinese language.",
     "tabs": {
       "webProjects": "Web Projects",
       "moocs": "MOOCs"
@@ -46,7 +51,7 @@
   },
   "biograph": {
     "title": "Knowledge Graph",
-    "description": ""
+    "description": "Visualisation made from Wikidata."
   },
   "footer": {
     "copyright": "© Text: Hugo Lopez CC0 ; Code: MIT License."
